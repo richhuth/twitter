@@ -36,7 +36,7 @@ This created a map of the users tweets which we are able to search through
 
 This is the main function file where I gathered all the data I needed and rendered the output to console as per assignment request.
 
-###Comments
+### Comments
 
 From the data that was provided, I thought the best approach would be to get the data into a readable arrays. Once that was achieved I was able to create the functions to display the data as per example.
 From the error checking side of things, I would would make sure that the data goes in correctly from the front end.
