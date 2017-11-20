@@ -22,7 +22,7 @@ npm start
 
 ### users.js
 
-By looking at the user.txt, not all users had followers. So in order to create a list of users I have to retrieve all the inital users and their followers. This created an array of users which I then removed all the duplicates to create a unique list of users. My assumption here was that each username was unique. 
+By looking at the user.txt, not all users had followers. So in order to create a list of users I had to retrieve all the initial users and their followers. This created an array of users which I then removed all the duplicates to create a unique list of users. My assumption here was that each username was unique. 
 
 ### follower.js
 
@@ -39,5 +39,5 @@ This is the main function file where I gathered all the data I needed and render
 ###Comments
 
 From the data that was provided, I thought the best approach would be to get the data into a readable arrays. Once that was achieved I was able to create the functions to display the data as per example.
-From the error checking side of things, I would would make sure that the data goes in correctly from the front end side of things.
-The current error handling is on the tweets themselves but this would create promise block. So another approach would be not to show those tweets but again this should come from a data input side of things.
+From the error checking side of things, I would would make sure that the data goes in correctly from the front end.
+The current error handling is on the tweets themselves but this would create a promise block. So another approach would be not to show those tweets but again this should come from a data input side of things.
