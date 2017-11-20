@@ -31,7 +31,7 @@ function displayTweets(user,followers,tweets) {
   temp = temp.map(e => e.trim());
   tweets.map(function (y) {
     if (temp.includes(y.user) || y.user === user ) {
-      let tweet = '\t@:'+y.user+': '+ y.tweet;
+      let tweet = '\t@'+y.user+': '+ y.tweet;
       console.log(tweet);
     }
   })
